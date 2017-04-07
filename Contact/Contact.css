@@ -1,0 +1,327 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #FFF;
+    background-position: 50% 50%;
+}
+ 
+html {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 48px;
+  font-weight: 100;
+  text-align: center;
+}
+
+h4 {
+   font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  font-weight: 100;
+  text-align: center;
+ }
+
+ h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  font-weight: 100;
+  text-align: center;
+ }
+
+
+
+ p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  color: #000000;
+  text-align: center;
+ }
+
+.centerTable {
+  margin: 0px auto; 
+}
+
+header {
+  padding: 1em;
+  color: #FFFFFF;
+  background-color: #000000;
+  clear: left;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer {      
+ text-align: center;    
+ width: 100%;
+ color: #FFFFFF;
+ background-color: #FFFFFF;
+ font-family: 'Raleway', sans-serif;
+ font-size: 24px;
+ clear: both;
+ position: relative;
+ z-index: 10;
+ height: 4em;
+ margin-top: -4em;
+}
+
+.footerText{      
+ text-align: right;
+ color: #000000;    
+ font-size: 15px;
+}
+
+/* Hero Image - Adeel Siddiqui */
+
+.hero {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/55/Toronto_Skyline_Panorama.jpg);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.heroText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+/* Slide in Overlay - Adeel Siddiqui */
+
+.container {
+ position: relative;
+ width: 100%;
+}
+
+.image {
+ display: block;
+ width: 600px;
+ height: 800px;
+ height: auto;
+}
+
+.overlay {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ background-color: #000000;
+ font-family: 'Open Sans Condensed', sans-serif;
+ overflow: hidden;
+ width: 100%;
+ height: 0;
+ transition: .5s ease;
+}
+
+.container:hover .overlay {
+ height: 100%;
+}
+
+.text { 
+ color: white;
+ font-size: 20px;
+ position: absolute;
+ overflow: hidden;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+}
+
+
+/* vv Side Nav Menu - Adeel Siddiqui vv */
+ .sidenav {
+  font-family: 'Open Sans Condensed', sans-serif;
+     height: 100%; 
+     width: 0; 
+     position: fixed; 
+     z-index: 1; 
+     top: 0;
+     left: 0;
+     background-color: #111; 
+     overflow-x: hidden; 
+     padding-top: 60px; 
+     transition: 0.6s ease;
+ }
+ 
+ 
+ .sidenav a {
+     padding: 8px 8px 8px 32px;
+     text-decoration: none;
+     font-size: 25px;
+     color: #818181;
+     display: block;
+     transition: 0.3s
+ }
+ 
+ 
+ .sidenav a:hover, .offcanvas a:focus{
+     color: #f1f1f1;
+ }
+ 
+ 
+ .sidenav .closebtn {
+     position: absolute;
+     top: 0;
+     right: 25px;
+     font-size: 36px;
+     margin-left: 50px;
+ }
+ 
+ 
+ #main {
+     transition: margin-left .5s;
+     padding: 20px;
+ }
+ 
+ 
+ @media screen and (max-height: 450px) {
+     .sidenav {padding-top: 15px;}
+     .sidenav a {font-size: 18px;}
+ }
+ 
+ .textNav {
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-size: 20px;
+   letter-spacing: 0.06em;
+ }
+
+ 
+ /* ^^ Side Nav Menu - Adeel Siddiqui ^^ */
+ 
+/* Form */
+
+.bootstrap-frm {
+    margin-left:auto;
+    margin-right:auto;
+
+    max-width: 500px;
+    background: #FFF;
+    padding: 20px 30px 20px 30px;
+    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #DDD;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.bootstrap-frm h1 {
+    font: 25px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #DADADA;
+    margin: -10px -30px 30px -30px;
+    color: #888;
+}
+.bootstrap-frm h1>span {
+    display: block;
+    font-size: 11px;
+}
+.bootstrap-frm label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.bootstrap-frm label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.bootstrap-frm input[type="text"], .bootstrap-frm input[type="email"], .bootstrap-frm textarea, .bootstrap-frm select{
+    border: 1px solid #CCC;
+    color: #888;
+    height: 20px;
+    line-height:15px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 5px 0px 5px 5px;
+    width: 70%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;    
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.bootstrap-frm select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    background: #FFF url('down-arrow.png') no-repeat right;
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+    height: 35px;
+    line-height:15px;
+}
+.bootstrap-frm textarea{
+    height:100px;
+    padding: 5px 0px 0px 5px;
+    width: 70%;
+}
+.bootstrap-frm .button {
+    background: #FFF;
+    border: 1px solid #CCC;
+    padding: 10px 25px 10px 25px;
+    color: #333;
+    border-radius: 4px;
+}
+.bootstrap-frm .button:hover {
+    color: #333;
+    background-color: #EBEBEB;
+    border-color: #ADADAD;
+}
+
+/* Social Media Buttons - Adeel Siddiqui */
+
+.fa {
+  padding: 20px;
+  font-size: 48px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-snapchat-ghost {
+ color: #000000;
+}
+
+.fa-instagram {
+ color: #000000;
+}
+
+.fa-twitter {
+ color: #000000;
+}
+
+.fa-facebook {
+ color: #000000;
+}
+
+.fa-linkedin {
+ color: #000000;
+}
+
