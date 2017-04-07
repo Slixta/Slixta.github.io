@@ -236,7 +236,7 @@ header {
 }
 
 /* Button */
-.button {
+.bool {
     background-color: #FFFFFF; /* Green */
     border: none;
     color: white;
@@ -252,13 +252,13 @@ header {
     font-family: 'Raleway', sans-serif;
 }
 
-.button1 {
+.boolin {
     background-color: white; 
     color: black; 
     border: 2px solid #555555;
 }
 
-.button1:hover {
+.boolin:hover {
     background-color: #555555;
     color: white;
 }
