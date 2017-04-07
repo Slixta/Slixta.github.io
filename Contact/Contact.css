@@ -1,0 +1,394 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #FFF;
+    background-position: 50% 50%;
+}
+ 
+html {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 48px;
+  font-weight: 100;
+  text-align: center;
+}
+
+h4 {
+   font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  font-weight: 100;
+  text-align: center;
+ }
+
+ h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  font-weight: 100;
+  text-align: center;
+ }
+
+
+
+ p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  color: #000000;
+  text-align: center;
+ }
+
+.centerTable {
+  margin: 0px auto; 
+}
+
+header {
+  padding: 1em;
+  color: #FFFFFF;
+  background-color: #000000;
+  clear: left;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer {      
+ text-align: center;    
+ width: 100%;
+ color: #FFFFFF;
+ background-color: #FFFFFF;
+ font-family: 'Raleway', sans-serif;
+ font-size: 24px;
+ clear: both;
+ position: relative;
+ z-index: 10;
+ height: 4em;
+ margin-top: -4em;
+}
+
+.footerText{      
+ text-align: right;
+ color: #000000;    
+ font-size: 15px;
+}
+
+/* Hero Image - Adeel Siddiqui */
+
+.hero {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/55/Toronto_Skyline_Panorama.jpg);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.heroText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+/* Slide in Overlay - Adeel Siddiqui */
+
+.container {
+ position: relative;
+ width: 100%;
+}
+
+.image {
+ display: block;
+ width: 600px;
+ height: 800px;
+ height: auto;
+}
+
+.overlay {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ background-color: #000000;
+ font-family: 'Open Sans Condensed', sans-serif;
+ overflow: hidden;
+ width: 100%;
+ height: 0;
+ transition: .5s ease;
+}
+
+.container:hover .overlay {
+ height: 100%;
+}
+
+.text { 
+ color: white;
+ font-size: 20px;
+ position: absolute;
+ overflow: hidden;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+}
+
+
+/* vv Side Nav Menu - Adeel Siddiqui vv */
+ .sidenav {
+  font-family: 'Open Sans Condensed', sans-serif;
+     height: 100%; 
+     width: 0; 
+     position: fixed; 
+     z-index: 1; 
+     top: 0;
+     left: 0;
+     background-color: #111; 
+     overflow-x: hidden; 
+     padding-top: 60px; 
+     transition: 0.6s ease;
+ }
+ 
+ 
+ .sidenav a {
+     padding: 8px 8px 8px 32px;
+     text-decoration: none;
+     font-size: 25px;
+     color: #818181;
+     display: block;
+     transition: 0.3s
+ }
+ 
+ 
+ .sidenav a:hover, .offcanvas a:focus{
+     color: #f1f1f1;
+ }
+ 
+ 
+ .sidenav .closebtn {
+     position: absolute;
+     top: 0;
+     right: 25px;
+     font-size: 36px;
+     margin-left: 50px;
+ }
+ 
+ 
+ #main {
+     transition: margin-left .5s;
+     padding: 20px;
+ }
+ 
+ 
+ @media screen and (max-height: 450px) {
+     .sidenav {padding-top: 15px;}
+     .sidenav a {font-size: 18px;}
+ }
+ 
+ .textNav {
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-size: 20px;
+   letter-spacing: 0.06em;
+ }
+
+ 
+ /* ^^ Side Nav Menu - Adeel Siddiqui ^^ */
+ 
+/* Form */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: #bbb5af;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: #bbb5af;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+input:focus::placeholder, textarea::focus:placeholder {
+  color: #bbb5af;
+}
+
+input::-ms-placeholder, textarea::-ms-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+  color: #bbb5af;
+}
+
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+  color: #cbc6c1;
+}
+
+
+#form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto;
+}
+
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  
+  background: transparent;
+  outline: none;
+  color: #726659;
+  
+  border: solid 1px #b3aca7;
+  border-bottom: none;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  
+  background: transparent;
+  outline: none;
+  
+  color: #726659;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  
+  border: solid 1px #b3aca7;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+#submit {
+  width: 502px;
+  
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  color: #b3aca7;
+  
+  outline:none;
+  cursor: pointer;
+  
+  border: solid 1px #b3aca7;
+  border-top: none;
+}
+
+#submit:hover {
+  color: #e2dedb;
+}
+
+/* Social Media Buttons - Adeel Siddiqui */
+
+.fa {
+  padding: 20px;
+  font-size: 48px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-snapchat-ghost {
+ color: #000000;
+}
+
+.fa-instagram {
+ color: #000000;
+}
+
+.fa-twitter {
+ color: #000000;
+}
+
+.fa-facebook {
+ color: #000000;
+}
+
+.fa-linkedin {
+ color: #000000;
+}
+
