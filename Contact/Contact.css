@@ -236,7 +236,7 @@ header {
 }
 
 /* Button */
-.bool {
+a {
     background-color: #FFFFFF; /* Green */
     border: none;
     color: white;
