@@ -23,6 +23,7 @@ p {
 
 .centerTable {
   margin: 0px auto; 
+  position: relative;  
 }
 
 header {
