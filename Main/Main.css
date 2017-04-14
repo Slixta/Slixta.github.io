@@ -3,7 +3,7 @@ body {
     margin: 0;
     background-color: #FFF;
     background-position: 50% 50%;
-    position: fixed;
+    position: relative;
 }
  
 html {
